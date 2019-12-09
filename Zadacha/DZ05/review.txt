@@ -1,0 +1,38 @@
+Ne trebaš math.h
+
+Imaš upozorenje na 39 liniji - nešto ti fali :D
+
+Ovo mi ne radi kako treba, npr:
+
+Prvi broj
+1
+Operator
++
+Drugi broj
+7
+Rezultat: 0+7=7
+
+Ali ako kod tebe radi kako treba, onda te neću opterećivati s time, budem sam
+potražio zbog čega pa prilagodio (moguće da je do neke razlike između windowsa
+i linuxa).
+
+Ono što mislim da ni kod tebe ne radi su realni brojevi - zadao sam kalkulator
+s realnim brojevima, ne cijelim :) (osim potenciranja, tu pretpostavi da je
+eksponent pozitivan cijeli broj)
+
+Tvoje pitanje iz messengera oko toga zašto ispisuje Resultat: x+y=res - zato
+što si printfu predao format stringa gdje specificiraš da ispisuješ tri broja.
+Trebao bi raditi "Rezultat: %d" i onda u argumentima iza navesti samo x+y npr.
+Ovo sad kaže ispiši riječ "Rezultat: " onda umjesto prvog %d stavi x, onda "+",
+onda umjesto drugog %d stavi drugi argument, y, pa "=" i onda na zadnji %d
+stavi x+y.
+
+Što se tiče potenciranja, dobro si krenuo s petljom ali bih ti predložio da
+koristiš for petlju umjesto while (istina je da je samo specifična verzija
+whilea - ali je specifična na tebi koristan način) i da potenciranje onda
+izvedeš kao višestruko množenje. Možda bi ti bilo zgodnije da sa strane
+napraviš odvojen programčić koji je kao prvi zadatak, samo radi potenciranje
+umjesto zbrajanja i onda na njemu isprobaš kako riješiti i primijeniš ovdje
+(čisto da ti ovi unosi operatora nisu na putu). Možda čak probaj napraviti
+program koji ne dopušta unos eksponenta nego pretpostavi npr. da je eksponent
+uvijek 5 i onda pokušaš generalizirati naknadno.

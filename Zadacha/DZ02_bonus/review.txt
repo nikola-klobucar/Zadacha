@@ -1,0 +1,10 @@
+Ne trebaš dodatne indente na liniji 14, 18 i 19
+
+Ne treba ti math.h a onda ni round, možda nisam u zadacima specificirao da
+očekujemo samo cijele brojeve.
+
+Malo uredi ove aritmetičke izraze tipa z = x % y, nije toliko bitno ali
+izgledat će urednije i čitkije.
+
+Bonus - slično kao i prošli zadatak, probaj napraviti stvar da radi bez
+varijabli z i c.

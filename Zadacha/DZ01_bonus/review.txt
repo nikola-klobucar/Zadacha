@@ -1,0 +1,13 @@
+Imena varijabli x, y, z su ok, ali možda bi bilo bolje njegovati praksu da
+opisuju šta rade. Predložio bih da ih preimenuješ u first_number, second_number
+i result. Ovo onda vrijedi i za ostale zadatke, pa računaj da je primjedba i za
+njih, da ne pišem u svaki review :)
+
+Ne treba ti dodatni indent na 13. liniji, jedan tab je dovoljan.
+
+Bilo bi dobro staviti \n na kraj printfa na 15. liniji, čisto da ti ispis
+rezultata ne ostane u istom retku kao dio gdje upisuješ naredbu. Vidim da ovo
+imaš i u drugim zadatcima tako da to prilagodi svugdje onda.
+
+Bonus - probaj složiti stvar da radi samo s dvije varijable, odnosno bez
+varijable z/result.

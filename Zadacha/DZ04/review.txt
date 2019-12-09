@@ -1,0 +1,7 @@
+Pogodi gdje imaš indent viška xD
+
+Isto kao i u prošlom - ne trebaju ti ove unutarnje zagrade.
+
+Ovo rješenje je ok, ali nije baš točno što sam mislio - ajde probaj riješiti
+bez korištenja ovog else if dijela, odnosno da imaš jedan if koji provjerava
+pripada li intervalu i else u kojem kaže da ne pripada.

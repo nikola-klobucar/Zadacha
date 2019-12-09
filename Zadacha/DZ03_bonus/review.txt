@@ -1,0 +1,20 @@
+Ne trebaš math.h
+
+Ne trebaš dodatni indent od 9 do 14 linije
+
+Ove zagrade oko operatora veće i manje su ti isto višak, radit će ti normalno i
+bez toga i bit će čitkije.
+
+Bonus - probaj napraviti stvar tako da brojevi 0 i 100 nisu fiksni nego ih
+korisnik upisuje. Primjer:
+
+Početak intervala:
+80
+
+Kraj intervala:
+120
+
+Broj:
+110
+
+Pripada zadanom intervalu
